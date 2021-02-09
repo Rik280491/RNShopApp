@@ -4,7 +4,6 @@ import {
 	Text,
 	TouchableOpacity,
 	StyleSheet,
-	PLatform,
 	Platform,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
@@ -27,7 +26,7 @@ const CartItem = (props) => {
 				</TouchableOpacity>
 			</View>
 		</View>
-	);
+	); 
 };
 
 const styles = StyleSheet.create({
